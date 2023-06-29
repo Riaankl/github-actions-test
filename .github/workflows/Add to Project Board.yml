@@ -14,4 +14,5 @@ jobs:
         uses: actions/add-to-project@v0.5.0
         with:
            project-url: https://github.com/users/Riaankl/projects/1/views/1
+           columnName: ToDo
            github-token: ${{ secrets.GH_TOKEN }}
